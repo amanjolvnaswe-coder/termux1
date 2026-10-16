@@ -1,1 +1,119 @@
-
+pwd
+/data/data/com.termux/files/home
+~ $ ls
+~ $ mkdir oshxona
+~ $ ls
+oshxona
+~ $ mkdir sport
+~ $ ls
+oshxona  sport
+~ $ cd sport
+~/sport $ ls
+~/sport $ mkdir futbol suzish shaxmat basketbol
+~/sport $ ls
+basketbol  futbol  shaxmat  suzish
+~/sport $ cd ..
+~ $ ls
+oshxona  sport
+~ $ mkdir loyiha
+~ $ ls
+loyiha  oshxona  sport
+~ $ cd loyiha
+~/loyiha $ ls
+~/loyiha $ mkdir rasmlar matnlar videolar
+~/loyiha $ ls
+matnlar  rasmlar  videolar
+~/loyiha $ mkdir arxiv
+~/loyiha $ ls
+arxiv  matnlar  rasmlar  videolar
+~/loyiha $ cd arxiv
+~/loyiha/arxiv $ ls
+~/loyiha/arxiv $ mkdir 2024 2025
+~/loyiha/arxiv $ ls
+2024  2025
+~/loyiha/arxiv $ cd ..
+~/loyiha $ ls
+arxiv  matnlar  rasmlar  videolar
+~/loyiha $ cd ..
+~ $ ls
+loyiha  oshxona  sport
+~ $ mkdir vaqtincha
+~ $ ls
+loyiha  oshxona  sport  vaqtincha
+~ $ rmdir vaqtincha
+~ $ ls
+loyiha  oshxona  sport
+~ $ mkdir kutubxona
+~ $ ls
+kutubxona  loyiha  oshxona  sport
+~ $ cd kutubxona
+~/kutubxona $ ls
+~/kutubxona $ mkdir kitoblar jurnallar
+~/kutubxona $ ls
+jurnallar  kitoblar
+~/kutubxona $ rmdir jurnallar
+~/kutubxona $ ls
+kitoblar
+~/kutubxona $ cd ..
+~ $ ls
+kutubxona  loyiha  oshxona  sport
+~ $ mkdir tadbirlar
+~ $ ls
+kutubxona  loyiha  oshxona  sport  tadbirlar
+~ $ cd tadbirlar
+~/tadbirlar $ ls
+~/tadbirlar $ mkdir yanvar fevral mart
+~/tadbirlar $ ls
+fevral  mart  yanvar
+~/tadbirlar $ cd mart
+~/tadbirlar/mart $ ls
+~/tadbirlar/mart $ mkdir bayram
+~/tadbirlar/mart $ ls
+bayram
+~/tadbirlar/mart $ cd ..
+~/tadbirlar $ ls
+fevral  mart  yanvar
+~/tadbirlar $ cd ..
+~ $ ls
+kutubxona  loyiha  oshxona  sport  tadbirlar
+~ $ cd oshxona
+~/oshxona $ ls
+~/oshxona $ mkdir tandir pishiriq salatlar
+~/oshxona $ ls
+pishiriq  salatlar  tandir
+~/oshxona $ rmdir salatlar
+~/oshxona $ ls
+pishiriq  tandir
+~/oshxona $ cd ..
+~ $ ls
+kutubxona  loyiha  oshxona  sport  tadbirlar
+~ $ mkdir home/
+~ $ ls
+home  kutubxona  loyiha  oshxona  sport  tadbirlar
+~ $ cd home/
+~/home $ ls
+~/home $ mkdir musiqa/
+~/home $ ls
+musiqa
+~/home $ cd musiqa/
+~/home/musiqa $ ls
+~/home/musiqa $ mkdir klassik/ xalq/ zamonaviy/
+~/home/musiqa $ ls
+klassik  xalq  zamonaviy
+~/home/musiqa $ cd zamonaviy/
+~/.../musiqa/zamonaviy $ ls
+~/.../musiqa/zamonaviy $ pop/
+bash: pop/: No such file or directory
+~/.../musiqa/zamonaviy $ mkdir pop/
+~/.../musiqa/zamonaviy $ ls
+pop
+~/.../musiqa/zamonaviy $ cd ..
+~/home/musiqa $ ls
+klassik  xalq  zamonaviy
+~/home/musiqa $ cd ..
+~/home $ ls
+musiqa
+~/home $ cd ..
+~ $ ls
+home  kutubxona  loyiha  oshxona  sport  tadbirlar
+~ $
